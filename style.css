@@ -29,6 +29,11 @@ header {
     height: 25vh;
   }
 }
+@media only screen and (max-width: 31.25em) {
+  header {
+    height: 40vh;
+  }
+}
 
 main {
   display: flex;
@@ -86,6 +91,11 @@ h1 {
     font-size: 3rem;
   }
 }
+@media only screen and (max-width: 31.25em) {
+  h1 {
+    font-size: 2rem;
+  }
+}
 
 .secret-number {
   position: absolute;
@@ -141,6 +151,11 @@ h1 {
   top: 2rem;
   left: 2rem;
 }
+@media only screen and (max-width: 31.25em) {
+  .btn--again {
+    top: 4rem;
+  }
+}
 
 .message {
   height: 3rem;
@@ -149,6 +164,12 @@ h1 {
 @media only screen and (max-width: 37.5em) {
   .message {
     text-align: center;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  .message {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
   }
 }
 
