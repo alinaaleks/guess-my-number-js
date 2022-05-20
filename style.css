@@ -26,7 +26,7 @@ header {
 }
 @media only screen and (max-width: 37.5em) {
   header {
-    height: 25vh;
+    height: 35vh;
   }
 }
 @media only screen and (max-width: 31.25em) {
@@ -48,6 +48,12 @@ main {
     justify-content: center;
     gap: 5rem;
     height: 75vh;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  main {
+    justify-content: flex-start;
+    gap: 3rem;
   }
 }
 
@@ -88,7 +94,8 @@ h1 {
 }
 @media only screen and (max-width: 37.5em) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    top: 45%;
   }
 }
 @media only screen and (max-width: 31.25em) {
@@ -110,13 +117,23 @@ h1 {
   font-size: 6rem;
   /* color: #06e250; */
 }
+@media only screen and (max-width: 37.5em) {
+  .secret-number {
+    bottom: 15%;
+  }
+}
+@media only screen and (max-width: 31.25em) {
+  .secret-number {
+    bottom: 25%;
+  }
+}
 
-.between {
+/* .between {
   position: absolute;
   top: 2rem;
   right: 2rem;
   font-size: 1.4rem;
-}
+} */
 
 .guess {
   display: block;
@@ -151,9 +168,10 @@ h1 {
   top: 2rem;
   left: 2rem;
 }
-@media only screen and (max-width: 31.25em) {
+@media only screen and (max-width: 37.5em) {
   .btn--again {
-    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -163,12 +181,12 @@ h1 {
 }
 @media only screen and (max-width: 37.5em) {
   .message {
+    margin-bottom: 1.5rem;
     text-align: center;
   }
 }
 @media only screen and (max-width: 31.25em) {
   .message {
-    margin-bottom: 3rem;
     font-size: 1.5rem;
   }
 }

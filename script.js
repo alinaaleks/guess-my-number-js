@@ -77,7 +77,7 @@ document.querySelector('.btn--again').addEventListener('click', function() {
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   displaySecretNumber('?');
   document.querySelector('.guess').value = '';
-  displayMessage('Start guessing...');
+  displayMessage('Guess! (1 to 20)');
   changeBackgrColor('#222');
   changeSNWidth('15rem');
 });
